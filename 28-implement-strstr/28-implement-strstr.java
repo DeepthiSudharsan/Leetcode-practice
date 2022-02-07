@@ -1,8 +1,7 @@
 class Solution {
     public int strStr(String haystack, String needle) 
     {
-         int occ = -1;
-        String substr = "";
+        int occ = -1;
         if(needle == "")
         {
             occ = 0;
