@@ -4,7 +4,6 @@ class MyHashMap
     public MyHashMap() 
     {
         hm = new ArrayList<ArrayList<Integer>>();
-        // System.out.println(hm);
     } 
     public void put(int key, int value) 
     {
@@ -26,8 +25,6 @@ class MyHashMap
             temp.add(value);
             this.hm.add(temp);
         }
-        
-        // System.out.println(hm);
     }
     public int get(int key) 
     {
@@ -35,7 +32,6 @@ class MyHashMap
         {
             if(this.hm.get(i).get(0) == key)
             {
-                // System.out.println(this.hm.get(0));
                 return this.hm.get(i).get(1);
             }
         }
