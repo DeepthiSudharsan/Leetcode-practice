@@ -3,7 +3,6 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        indices = []
         r,c = len(matrix), len(matrix[0])
         iz, jz = set(),set()
         for i in range(r):
