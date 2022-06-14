@@ -5,10 +5,10 @@ class Solution:
         i,j = 0,c-1
         flag = 0
         res = []
-        if r == 1:
-            return matrix[0]
-        if c == 1:
-            return [matrix[p][0] for p in range(r)]
+        # if r == 1:
+        #     return matrix[0]
+        # if c == 1:
+        #     return [matrix[p][0] for p in range(r)]
         while(rowl<=rowr  and colu<=cold):
             if flag % 4 == 0:
                 # right
