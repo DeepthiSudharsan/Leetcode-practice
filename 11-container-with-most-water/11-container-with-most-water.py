@@ -3,10 +3,8 @@ class Solution:
         l = 0
         r = len(height) -1
         res = 0
-        artemp = 0
         while(l < r):
-            artemp = min(height[l],height[r]) * (r-l)
-            res = max(res, artemp)
+            res = max(res, min(height[l],height[r]) * (r-l))
             if height[l] < height[r]:
                 l +=1
             else:
