@@ -9,7 +9,7 @@ class MinStack:
         
 
     def pop(self) -> None:
-        self.stack.pop()
+        self.stack = self.stack[:-1]
         
 
     def top(self) -> int:
